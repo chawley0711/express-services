@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {"mens": [
+      {"haircut-bronze": [
+        ["name", "Haircut - Bronze"],
+        ["price", "$10"]
+      ]}
+    ]},
+    {"womens": [
+      "serv1",
+      "serv2"
+    ]},
+    {"products": [
+      "prod1",
+      "prod2"
+    ]}
+  ]
+}
