@@ -1,130 +1,128 @@
 {
-  "menu": [
-    {"mens": [
-      {"haircut-bronze": [
-        ["name", "Haircut - Bronze"],
-        ["price", "$10"],
-        ["description", "Standard haircut, a little product for styling"]
-      ]},
-      {"haircut-silver": [
-        ["name", "Haircut - Silver"],
-        ["price", "$18"],
-        ["description", "Standard haircut, shampoo, and a little product for styling"]
-      ]},
-      {"haircut-gold": [
-        ["name", "Haircut - Gold"],
-        ["price", "$25"],
-        ["description", "Standard haircut, shampoo, hot towel, neck/shoulder massage, and a little product for styling"]
-      ]},
-      {"haircut-platinum": [
-        ["name", "Haircut - Platinum"],
-        ["price", "$32"],
-        ["description", "Standard haircut, shampoo, hot towel, neck/shoulder massage, beard trim, and a little product for styling"]
-      ]},
-      {"haircut-diamond": [
-        ["name", "Haircut - Diamond"],
-        ["price", "$40"],
-        ["description", "Need a whole new look? On the lamb? We won't judge... Standard haircut, shampoo, hot towel, neck/shoulder massage, hair coloring, beard trim, and a little product for styling"]
-      ]},
-      {"dye": [
-        ["name", "Hair Dye"],
-        ["price", "$10"],
-        ["description", "Add a little color to your hair, haircut not required"]
-      ]},
-      {"facial-hair": [
-        ["name", "Facial Hair"],
-        ["price", "$12"],
-        ["description", "Shape up your beard, goatee, moustache, peach fuzz, whatever you got"]
-      ]},
-      {"waxing": [
-        ["name", "Waxing"],
-        ["price", "$25"],
-        ["description", "Not that kinda wax... for those who want a smooth, bald head"]
-      ]}
-    ]},
-    {"womens": [
-      {"haircut-bronze": [
-        ["name", "Haircut - Bronze"],
-        ["price", "$10"],
-        ["description", "Standard haircut"]
-      ]},
-      {"haircut-silver": [
-        ["name", "Haircut - Silver"],
-        ["price", "$18"],
-        ["description", "Standard haircut and shampoo"]
-      ]},
-      {"haircut-gold": [
-        ["name", "Haircut - Gold"],
-        ["price", "$25"],
-        ["description", "Standard haircut, shampoo, hot towel, neck/shoulder massage"]
-      ]},
-      {"haircut-platinum": [
-        ["name", "Haircut - Platinum"],
-        ["price", "$32"],
-        ["description", "Standard haircut, shampoo, hot towel, neck/shoulder massage, eyebrows"]
-      ]},
-      {"haircut-diamond": [
-        ["name", "Haircut - Diamond"],
-        ["price", "$40"],
-        ["description", "So... you found out your ex got a new girl and you need to make sure he regrets it... we got you covered. Standard haircut, shampoo, hot towel, neck/shoulder massage, eyebrows, and hair coloring"]
-      ]},
-      {"dye": [
-        ["name", "Hair Dye"],
-        ["price", "$10"],
-        ["description", "Add a little color to your hair, haircut not required"]
-      ]},
-      {"eyebrows": [
-        ["name", "Eyebrows"],
-        ["price", "$20"],
-        ["description", "Shape up your eyebrows, we know you like 'em on fleek"]
-      ]},
-      {"waxing": [
-        ["name", "Waxing"],
-        ["price", "$25"],
-        ["description", "Not that kind of wax... got a pesky moustache? Unibrow? We got you"]
-      ]}
-    ]},
-    {"products": [
-      {"shampoo": [
-        ["name", "Shampoo"],
-        ["price", "$7"],
-        ["description", "12 fl oz bottle of shampoo"]
-      ]},
-      {"tea-tree-shampoo": [
-        ["name", "Tea Tree Shampoo"],
-        ["price", "$11"],
-        ["description", "12 fl oz bottle of tea tree shampoo"]
-      ]},
-      {"conditioner": [
-        ["name", "Conditioner"],
-        ["price", "$7"],
-        ["description", "12 fl oz bottle of conditioner"]
-      ]},
-      {"mousse": [
-        ["name", "Mousse"],
-        ["price", "$9"],
-        ["description", "12 fl oz bottle of mousse"]
-      ]},
-      {"hair-dye": [
-        ["name", "Hair Dye"],
-        ["price", "$8"],
-        ["description", "One use hair dye kit, available in 24 shades"]
-      ]},
-      {"blow-dryer": [
-        ["name", "Blow Dryer"],
-        ["price", "$30"],
-        ["description", "High efficiency hair dryer, avaiable in 3 colors"]
-      ]},
-      {"hair-gel": [
-        ["name", "Hair Gel"],
-        ["price", "$7"],
-        ["description", "Extreme hold hair gel for all you Guy Fieri imitators out there"]
-      ]},
-      {"pomade": [
-        ["name", "Pomade"],
-        ["price", "$7"],
-        ["description", "Light - Medium hold hair clay, won't leave hair stiff, won't leave hair flat and boring"]
-      ]}
-    ]}
+  "mens": [
+    [
+      "Haircut - Bronze",
+      "$10",
+      "Standard haircut, a little product for styling"
+    ],
+    [
+      "Haircut - Silver",
+      "$18",
+      "Standard haircut, shampoo, and a little product for styling"
+    ],
+    [
+      "Haircut - Gold",
+      "$25",
+      "Standard haircut, shampoo, hot towel, neck/shoulder massage, and a little product for styling"
+    ],
+    [
+      "Haircut - Platinum",
+      "$32",
+      "Standard haircut, shampoo, hot towel, neck/shoulder massage, beard trim, and a little product for styling"
+    ],
+    [
+      "Haircut - Diamond",
+      "$40",
+      "Need a whole new look? On the lamb? We won't judge... Standard haircut, shampoo, hot towel, neck/shoulder massage, hair coloring, beard trim, and a little product for styling"
+    ],
+    [
+      "Hair Dye",
+      "$10",
+      "Add a little color to your hair, haircut not required"
+    ],
+    [
+      "Facial Hair",
+      "$12",
+      "Shape up your beard, goatee, moustache, peach fuzz, whatever you got"
+    ],
+    [
+      "Waxing",
+      "$25",
+      "Not that kinda wax... for those who want a smooth, bald head"
+    ]
+  ],
+  "womens": [
+    [
+      "Haircut - Bronze",
+      "$10",
+      "Standard haircut"
+    ],
+    [
+      "Haircut - Silver",
+      "$18",
+      "Standard haircut and shampoo"
+    ],
+    [
+      "Haircut - Gold",
+      "$25",
+      "Standard haircut, shampoo, hot towel, neck/shoulder massage"
+    ],
+    [
+      "Haircut - Platinum",
+      "$32",
+      "Standard haircut, shampoo, hot towel, neck/shoulder massage, eyebrows"
+    ],
+    [
+      "Haircut - Diamond",
+      "$40",
+      "So... you found out your ex got a new girl and you need to make sure he regrets it... we got you covered. Standard haircut, shampoo, hot towel, neck/shoulder massage, eyebrows, and hair coloring"
+    ],
+    [
+      "Hair Dye",
+      "$10",
+      "Add a little color to your hair, haircut not required"
+    ],
+    [
+      "Eyebrows",
+      "$20",
+      "Shape up your eyebrows, we know you like 'em on fleek"
+    ],
+    [
+      "Waxing",
+      "$25",
+      "Not that kind of wax... got a pesky moustache? Unibrow? We got you"
+    ]
+  ],
+  "products": [
+    [
+      "Shampoo",
+      "$7",
+      "12 fl oz bottle of shampoo"
+    ],
+    [
+      "Tea Tree Shampoo",
+      "$11",
+      "12 fl oz bottle of tea tree shampoo"
+    ],
+    [
+      "Conditioner",
+      "$7",
+      "12 fl oz bottle of conditioner"
+    ],
+    [
+      "Mousse",
+      "$9",
+      "12 fl oz bottle of mousse"
+    ],
+    [
+      "Hair Dye",
+      "$8",
+      "One use hair dye kit, available in 24 shades"
+    ],
+    [
+      "Blow Dryer",
+      "$30",
+      "High efficiency hair dryer, avaiable in 3 colors"
+    ],
+    [
+      "Hair Gel",
+      "$7",
+      "Extreme hold hair gel for all you Guy Fieri imitators out there"
+    ],
+    [
+      "Pomade",
+      "$7",
+      "Light - Medium hold hair clay, won't leave hair stiff, won't leave hair flat and boring"
+    ]
   ]
 }
