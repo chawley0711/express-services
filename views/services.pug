@@ -2,7 +2,18 @@ extends layout
 
 block content
     p this is the #{title} page
+    p Mens
     ul
-        each item in config.menu[0].mens
+        each item in config.mens
+            div(class='menu_item')
+            li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}
+    p Womens
+    ul
+        each item in config.womens
+            div(class='menu_item')
+            li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}
+    p Products
+    ul
+        each item in config.products
             div(class='menu_item')
             li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}
