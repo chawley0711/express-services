@@ -2,3 +2,7 @@ extends layout
 
 block content
     p this is the #{title} page
+    ul
+        each item in config.menu[0].mens
+            div(class='menu_item')
+            li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}

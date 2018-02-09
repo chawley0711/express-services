@@ -12,13 +12,13 @@ app.use(express.static(path.join(__dirname+'/public')));
 app.get('/', function(req,res){
     res.render('home', {
         "title": "Home",
-        "config":config
     })
 });
 
 app.get('/services', function(req,res){
     res.render('services',{
-        "title": "Services"
+        "title": "Services",
+        "config":config
     })
 });
 
