@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname+'/public')));
 
 app.get('/', function(req,res){
     res.render('home', {
-        "title": "Home",
+        "title": "Home"
     })
 });
 

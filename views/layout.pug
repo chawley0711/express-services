@@ -1,22 +1,23 @@
 doctype html
 html
+
     head
         title #{title}
         link(href='style.css' rel='stylesheet')
-        nav
-            div(class='navbutton')
-                a(href='/')
-                    label Home 
-            div(class='navbutton')
-                a(href='orders')
-                    label Orders 
-            div(class='navbutton')
-                a(href='services')
-                    label Services 
     body
         header
             h1 #{title}
-            div
+            br
+            nav
+                div(class='navbutton')
+                    a(href='/')
+                        label Home
+                div(class='navbutton')
+                    a(href='orders')
+                        label Orders
+                div(class='navbutton')
+                    a(href='services')
+                        label Services
 
         div
             block content

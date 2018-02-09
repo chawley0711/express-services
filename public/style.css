@@ -1,6 +1,51 @@
 html{
-    background-color: lightslategrey;
+background-color: gray;
 }
 body{
     background-color: pink;
+    margin: 45px;
+    padding: 45px;
+}
+
+header{
+    background-color: purple;
+    display: inline-block;
+    align-content: left;
+    margin-bottom: 45px;
+}
+
+header h1{
+    padding: 10px;
+    background-color: green;
+    display: inline-block;
+    float: left;
+}
+
+nav{
+    background-color: orange;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+
+.navbutton{
+    float: left;
+    background-color: yellow;
+    margin: 25px;
+}
+
+.navbutton a{
+    font-size: 45px;
+}
+
+.serviceSec{
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 45px;
+}
+
+.pageContainer{
+
 }
