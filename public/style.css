@@ -3,6 +3,7 @@ background-color: gray;
 }
 body{
     background-color: pink;
+    height: fit-content;
     margin: 45px;
     padding: 45px;
 }
@@ -10,6 +11,7 @@ body{
 header{
     background-color: purple;
     display: inline-block;
+    width: 100%;
     align-content: left;
     margin-bottom: 45px;
 }
@@ -17,8 +19,12 @@ header{
 header h1{
     padding: 10px;
     background-color: green;
+    width: 97%;
+    margin: 10px;
+    border-radius: 10px;
     display: inline-block;
     float: left;
+    text-align: center;
 }
 
 nav{
@@ -26,13 +32,34 @@ nav{
     border-radius: 10px;
     display: inline-block;
     padding: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 45px;
+}
+
+p{
+    font-size: 120%;
+    word-wrap: normal;
+}
+
+footer{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: purple;
+  text-align: center;
 }
 
 .navbutton{
     float: left;
     background-color: yellow;
     margin: 25px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .navbutton a{
@@ -48,4 +75,17 @@ nav{
 
 .pageContainer{
 
+}
+.sidephoto{
+    border: 5px solid #000000;
+    border-radius: 4px;
+    width: 30%;
+    height: 30%;
+    float: right;
+}
+
+.homeparagraph{
+    width: 65%;
+    padding: 10px;
+    word-wrap: break-word;
 }
