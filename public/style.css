@@ -1,24 +1,25 @@
 html{
-background-color: gray;
+    background-color: black;
 }
 body{
     background-color: pink;
     height: fit-content;
     margin: 45px;
     padding: 45px;
+    border-radius: 15px;
 }
 
 header{
-    background-color: purple;
+    background-color: gray;
     display: inline-block;
     width: 100%;
     align-content: left;
     margin-bottom: 45px;
+    border-radius: 15px;
 }
 
 header h1{
     padding: 10px;
-    background-color: green;
     width: 97%;
     margin: 10px;
     border-radius: 10px;
@@ -49,13 +50,13 @@ footer{
   bottom: 0;
   left: 0;
   padding: 5px;
-  background-color: purple;
+  background-color: gray;
   text-align: center;
+    border-radius: 10px;
 }
 
 .navbutton{
     float: left;
-    background-color: yellow;
     margin: 25px;
     padding: 3px;
     border-radius: 5px;
@@ -67,10 +68,12 @@ footer{
 }
 
 .serviceSec{
-    background-color: yellow;
+    background-color: green;
     display: inline-block;
     border-radius: 10px;
     margin-bottom: 45px;
+    padding: 15px;
+    font-size: 25px;
 }
 
 .pageContainer{
