@@ -89,3 +89,7 @@ footer{
     padding: 10px;
     word-wrap: break-word;
 }
+
+.homediv{
+    min-height: 350px;
+}
