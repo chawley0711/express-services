@@ -2,40 +2,39 @@ html{
 background-color: gray;
 }
 body{
-    background-color: pink;
+    background-color:#dedede;
     height: fit-content;
     margin: 45px;
     padding: 45px;
 }
 
 header{
-    background-color: purple;
+    background-color: #19082b;
     display: inline-block;
     width: 100%;
-    align-content: left;
     margin-bottom: 45px;
 }
 
 header h1{
+    color:#dedede;
     padding: 10px;
-    background-color: green;
     width: 97%;
     margin: 10px;
     border-radius: 10px;
     display: inline-block;
-    float: left;
     text-align: center;
 }
 
 nav{
-    background-color: orange;
+    background-color: #241d7c;
     border-radius: 10px;
+    width: 97%;
     display: inline-block;
-    padding: 10px;
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 p{
@@ -49,8 +48,9 @@ footer{
   bottom: 0;
   left: 0;
   padding: 5px;
-  background-color: purple;
+  background-color: #19082b;
   text-align: center;
+  color: aliceblue;
 }
 
 .navbutton{
@@ -76,6 +76,7 @@ footer{
 .pageContainer{
 
 }
+
 .sidephoto{
     border: 5px solid #000000;
     border-radius: 4px;
@@ -93,3 +94,7 @@ footer{
 .homediv{
     min-height: 350px;
 }
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
