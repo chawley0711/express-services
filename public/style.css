@@ -1,42 +1,40 @@
 html{
-    background-color: black;
+background-color: gray;
 }
 body{
-    background-color: pink;
+    background-color:#dedede;
     height: fit-content;
     margin: 45px;
     padding: 45px;
-    border-radius: 15px;
 }
 
 header{
-    background-color: gray;
+    background-color: #19082b;
     display: inline-block;
     width: 100%;
-    align-content: left;
     margin-bottom: 45px;
-    border-radius: 15px;
 }
 
 header h1{
+    color:#dedede;
     padding: 10px;
     width: 97%;
     margin: 10px;
     border-radius: 10px;
     display: inline-block;
-    float: left;
     text-align: center;
 }
 
 nav{
-    background-color: orange;
+    background-color: #241d7c;
     border-radius: 10px;
+    width: 97%;
     display: inline-block;
-    padding: 10px;
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 45px;
+    text-align: center;
 }
 
 p{
@@ -50,13 +48,14 @@ footer{
   bottom: 0;
   left: 0;
   padding: 5px;
-  background-color: gray;
+  background-color: #19082b;
   text-align: center;
-    border-radius: 10px;
+  color: aliceblue;
 }
 
 .navbutton{
     float: left;
+    background-color: yellow;
     margin: 25px;
     padding: 3px;
     border-radius: 5px;
@@ -68,17 +67,16 @@ footer{
 }
 
 .serviceSec{
-    background-color: green;
+    background-color: yellow;
     display: inline-block;
     border-radius: 10px;
     margin-bottom: 45px;
-    padding: 15px;
-    font-size: 25px;
 }
 
 .pageContainer{
 
 }
+
 .sidephoto{
     border: 5px solid #000000;
     border-radius: 4px;
@@ -92,3 +90,11 @@ footer{
     padding: 10px;
     word-wrap: break-word;
 }
+
+.homediv{
+    min-height: 350px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+  }
