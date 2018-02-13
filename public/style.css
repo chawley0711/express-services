@@ -2,10 +2,12 @@ html{
 background-color: gray;
 }
 body{
+
     background-color:#dedede;
     height: fit-content;
     margin: 45px;
     padding: 45px;
+
 }
 
 header{
@@ -13,10 +15,11 @@ header{
     display: inline-block;
     width: 100%;
     margin-bottom: 45px;
+    border-radius: 10px;
 }
 
 header h1{
-    color:#dedede;
+    color: white;
     padding: 10px;
     width: 97%;
     margin: 10px;
@@ -26,7 +29,6 @@ header h1{
 }
 
 nav{
-    background-color: #241d7c;
     border-radius: 10px;
     width: 97%;
     display: inline-block;
@@ -51,26 +53,42 @@ footer{
   background-color: #19082b;
   text-align: center;
   color: aliceblue;
+  border-radius: 10px;
 }
 
 .navbutton{
     float: left;
-    background-color: yellow;
+    background-color: gray;
     margin: 25px;
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
     text-align: center;
+
+    -webkit-transition: width 2s;
+    transition: width 5s;
+}
+
+.navbutton:hover{
+    background-color: lightslategrey;
+    width: 200px;
+    height: 45px;
+    padding-top: 10px;
 }
 
 .navbutton a{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .serviceSec{
-    background-color: yellow;
+    font-family: "Times New Roman", Times, sans-serif;
+    background-color: lightslategrey;
     display: inline-block;
     border-radius: 10px;
     margin-bottom: 45px;
+    padding: 15px;
+    border: solid black;
+    border-width: 3px;
+    font-size: 20px;
 }
 
 .pageContainer{
