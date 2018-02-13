@@ -108,6 +108,53 @@ footer{
     padding: 10px;
     word-wrap: break-word;
 }
+#womensText{
+    visibility: hidden;
+}
+#productsText{
+    visibility: hidden;
+}
+#servicesTextArea{
+    min-height: 500px;
+    max-height:800px;
+    display:inline-block;
+    width: 900px;
+    overflow:hidden;
+    text-align: center;
+    background-color: #7E7F7D;
+}
+ul{
+    list-style: none;
+}
+.menu_item{
+    width: 250px;
+    min-height: 50px;
+    height: 150px;
+    max-height: 300px;
+    padding: 7px;
+    border: 3px solid black;
+    border-radius: 5px;
+    display:inline-block;
+    overflow:hidden;
+}
+#orderPanel{
+    text-align: center;
+}
+#servicesToggleBar{
+    width:400px;
+    height: 70px;
+}
+.btnToggle{
+    width: 125px;
+    height: 55px;
+    background-color: #B6BAB7;
+}
+#mensToggle{
+    background-color: #7E7F7D;
+}
+.textArea{
+    position:relative;
+    top: 0px;
 
 .homediv{
     min-height: 350px;
@@ -116,3 +163,5 @@ footer{
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
   }
+
+}
