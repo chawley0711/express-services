@@ -18,7 +18,10 @@
   "homepage": "https://github.com/chawley0711/express-services#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
+    "fs": "0.0.1-security",
     "pug": "^2.0.0-rc.4"
   }
 }

@@ -7,14 +7,20 @@ block content
         ul
             each item in config.mens
                 div(class='menu_item')
-                li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}
+                    div(class='menu_text')
+                        li(id=item[0]) #{item[0]}
+                        li #{item[1]}
+                        li #{item[2]}
 
     div(class = "serviceSec")
         p Womens
         ul
             each item in config.womens
                 div(class='menu_item')
-                li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}
+                    div(class='menu_text')
+                        li(id=item[0]) #{item[0]}
+                        li #{item[1]}
+                        li #{item[2]}
 
 
     div(class = "serviceSec")
@@ -22,4 +28,7 @@ block content
         ul
             each item in config.products
                 div(class='menu_item')
-                li(id=item[0]) #{item[0]} #{item[1]} #{item[2]}
+                    div(class='menu_text')
+                        li(id=item[0]) #{item[0]}
+                        li #{item[1]}
+                        li #{item[2]}

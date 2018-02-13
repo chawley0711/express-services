@@ -1,3 +1,52 @@
 extends layout
 
 block content
+  div(id='orderPanel')
+    form(id='form', method='post', action='/submitted')
+      div(id='userInfoArea')
+        input(type=text id=txtFirstName placeholder="First Name")
+        input(type=text id=txtAddress placeholder="Street Address")
+        input(type=text id=txtPhoneNumber placeholder="Phone Number")
+      div(id='servicesToggleBar')
+        div(id='menToggle' class='btnToggle' onclick="cattoggle()")
+          label Mens
+        div(id='womenToggle' class='btnToggle' onclick="cattoggle()")
+          label Womens
+        div(id='productsToggle' class='btnToggle' onclick="cattoggle()")
+          label Products
+      div(id='servicesTextArea')
+        div(id='mensText' class='textArea')
+          ul
+            each item in config.mens
+              div(class='menu_item')
+                div(class='menu_text')
+                  li(id=item[0]) #{item[0]}
+                  li #{item[1]}
+                  li #{item[2]}
+                input(type='checkbox' id=item[0] name=item[0] class='chkItem' onclick='chkToggle()')
+        div(id='womensText' class='textArea')
+          ul
+            each item in config.womens
+              div(class='menu_item')
+                div(class='menu_text')
+                  li(id=item[0]) #{item[0]}
+                  li #{item[1]}
+                  li #{item[2]}
+                input(type='checkbox' id=item[0] name=item[0] class='chkItem' onclick='chkToggle()')
+        div(id='productsText' class='textArea')
+          ul
+            each item in config.products
+              div(class='menu_item')
+                div(class='menu_text')
+                  li(id=item[0]) #{item[0]}
+                  li #{item[1]}
+                  li #{item[2]}
+                input(type='checkbox' id=item[0] name=item[0] class='chkItem' onclick='chkToggle()')
+        div(id='divTotal')
+          label Total:
+          label(id=lblTotal) $0.00
+        input(type='submit' id='btnSubmit' text='Submit' onclick='submitClicked()')
+  script(src='/scripts/orders.js')
+
+
+  
