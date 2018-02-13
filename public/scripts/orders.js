@@ -1,5 +1,6 @@
 var cookieString = [];
 document.cookie = ("order= ; path=/submitted;");
+var total = 0;
 function chkToggle(){
   var chk = event.target;
   var chkProductName = chk.id;
@@ -19,42 +20,31 @@ var servicesTextArea = document.getElementById('servicesTextArea');
 var mensText = document.getElementById('mensText');
 var womensText = document.getElementById('womensText');
 var productsText = document.getElementById('productsText');
-function submitClicked(){
-  var firstname = txtFirstName.innerHTML;
-  var address = txtAddress.innerHTML;
-  var phone = txtPhone.innerHTML;
-  document.cookie="firstname=" + firstname + "; address=" + address + "; phone=" + phone + "; path=/submitted;";
-}
+var btnsubmit = document.getElementById('btnSubmit');
+// function submitClicked(){
+//   var firstname = txtFirstName.innerHTML;
+//   var address = txtAddress.innerHTML;
+//   var phone = txtPhone.innerHTML;
+//   document.cookie="firstname=" + firstname + "; path=/submitted;";
+//   document.cookie="address=" + address + "; path=/submitted;";
+//   document.cookie="phone=" + phone + "; path=/submitted";
+// }
 function subscribeButtons(){
   menToggle.addEventListener("onclick", cattoggle);
   womenToggle.addEventListener("onclick", cattoggle);
   productsToggle.addEventListener("onclick", cattoggle);
+  //btnsubmit.addEventListener("onclick", submitClicked);
 }
 subscribeButtons();
 function cattoggle(){
   var toggleid = event.target.innerHTML;
   if(toggleid == 'Mens'){
-    mensText.style.visibility = "visible";
-    womensText.style.visibility="hidden";
-    productsText.style.visibility="hidden";
-    mensText.style.zIndex = 1;
-    womensText.style.zIndex = 2;
-    productsText.style.zIndex = 2;
+    servicesTextArea.innerHTML = mensText.innerHTML;
   }
   else if(toggleid == 'Womens'){
-    mensText.style.visibility="hidden";
-    womensText.style.visibility="visible";
-    productsText.style.visibility="hidden";
-    mensText.style.zIndex = 2;
-    womensText.style.zIndex = 1;
-    productsText.style.zIndex = 2;
+    servicesTextArea.innerHTML = womensText.innerHTML;
   }
   else if(toggleid == 'Products'){
-    mensText.style.visibility="hidden";
-    womensText.style.visibility="hidden";
-    productsText.style.visibility="visible";
-    mensText.style.zIndex = 2;
-    womensText.style.zIndex = 2;
-    productsText.style.zIndex = 1;
+    servicesTextArea.innerHTML = productsText.innerHTML;
   }
 }

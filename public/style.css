@@ -1,5 +1,7 @@
 html{
 background-color: gray;
+font-family: "Ubuntu";
+font-size: 18px;
 }
 body{
 
@@ -115,6 +117,7 @@ footer{
     visibility: hidden;
 }
 #servicesTextArea{
+    margin-top: 15px;
     min-height: 500px;
     max-height:800px;
     display:inline-block;
@@ -129,39 +132,69 @@ ul{
 .menu_item{
     width: 250px;
     min-height: 50px;
-    height: 150px;
-    max-height: 300px;
+    height: 220px;
+    max-height: 450px;
     padding: 7px;
     border: 3px solid black;
     border-radius: 5px;
     display:inline-block;
     overflow:hidden;
+    margin: 8px;
 }
+.menu_item:hover{
+    background-color: #A4DAFF;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
 #orderPanel{
     text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.textbox1{
+    height: 45px;
+    margin: 5px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+.textbox2{
+    height: 45px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 18px;
+}
+.chkItem{
+    height: 20px;
+    width:20px;
 }
 #servicesToggleBar{
-    width:400px;
+    width: 900px;
     height: 70px;
+    text-align: center;
+    display: inline-block;
 }
 .btnToggle{
-    width: 125px;
+    width: 300px;
     height: 55px;
     background-color: #B6BAB7;
+    display: inline-block;
 }
 #mensToggle{
     background-color: #7E7F7D;
 }
-.textArea{
-    position:relative;
-    top: 0px;
-
 .homediv{
     min-height: 350px;
 }
-
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
-  }
-
+}
+#btnSubmit{
+    height: 55px;
+    width: 85px;
 }

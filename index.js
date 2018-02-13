@@ -8,6 +8,10 @@ var app = express();
 app.set('view engine', 'pug');
 app.set('views', __dirname+'/views');
 app.use(express.static(path.join(__dirname+'/public')));
+var cookieparser = require('cookie-parser');
+app.use(cookieparser('haircut'));
+var bodyparser = require('body-parser');
+var urlencodedParser = bodyparser.urlencoded({extended: false});
 //var cookies = {getcookies};
 
 app.get('/', function(req,res){
@@ -31,14 +35,13 @@ app.get('/orders', function(req,res){
         "config":config
     })
 });
-app.post('/submitted', function(req,res){
-    res.render('submitted', {
-        // function(){
-        //     fs.appendFile('ordersText.txt', cookies, function (err){
-        //         if (err)
-        //           throw err;
-        //     })
-        // }
-    })
+app.post('/submitted',urlencodedParser, function(req,res){
+        var cookies = req.cookies.order;
+        var string = cookies + ", " + req.body.name + ", " + req.body.address + ", " + req.body.phone + '\n \r';
+        fs.appendFile('ordersText.txt', string, function (err){
+            if (err)
+              throw err;
+        })
+    res.render("submitted");
 });
 app.listen(3000);
